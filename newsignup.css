@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #22FFAD;
+  background-image: linear-gradient(#22FFAD 35%, rgb(13, 117, 79))
+}
+
+/* The "Sign Up" heading */
+h2 {
+  font-family: menlo;
+  color: white;
+  font-size: 50px;
+  line-height: 55px;
+  float: middle;
+  padding: 0px 20px;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: #05386B;
+}
+
+/* "Sign Up" botton */
+input[type=submit] {
+    width: 30%;
+    background-color: #8EE4AF;
+    border: solid;
+    color: #05386B;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+/* "Sign Up" botton text and border outline */
+input[type=submit]:hover {
+    color: #8EE4AF;
+    background-image: linear-gradient(#05386B 5%, #031C36)
+}
+
+/* Navigation region */
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #22FFAD;
+}
+
+nav p {
+  font-family: menlo;
+  color: #22FFAD;
+  font-size: 24px;
+  line-height: 55px;
+  float: right;
+  padding: 0px 20px;
+}
+
+/* Position navigation */
+nav ul {
+  float: right;
+}
+
+/* Position the navigation links */
+nav ul li {
+  float: right;
+  list-style: none;
+  position: relative;
+}
+
+/* Style navigation link's text */
+nav ul li a {
+  display: block;
+  font-family: menlo;
+  color: #05386B;
+  font-size: 16px;
+  font-weight: regular;
+  padding: 15px 14px;
+  text-decoration: none;
+}
+
+/* Underline the links in the navigation region */
+nav ul li a:hover {
+    text-decoration: underline;
+  }
+/* Style the textboxes */
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #05386B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: menlo;
+    background-image: linear-gradient(#05386B 5%, #031C36)
+}
+
+/* Navigation line */
+hr.sexy_line {
+border: 0;
+height: 3px;
+background: #05386B;
+background-image: -webkit-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
+background-image: -moz-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
+background-image: -ms-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
+background-image: -o-linear-gradient(left, #22FFAD, #05386B, #22FFAD);
+}
